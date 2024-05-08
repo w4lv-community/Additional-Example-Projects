@@ -14,6 +14,7 @@
 		<Item Name="Method 1.lvlib" Type="Library" URL="../Method 1/Method 1.lvlib"/>
 		<Item Name="Method 2.lvlib" Type="Library" URL="../Method 2/Method 2.lvlib"/>
 		<Item Name="Method 3.lvlib" Type="Library" URL="../Method 3/Method 3.lvlib"/>
+		<Item Name="Readme.md" Type="Document" URL="../Readme.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
