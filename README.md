@@ -1,4 +1,4 @@
 # Additional-Example-Projects
 
-Make sure that there are no spaces in between characters for folder names up to and including a project folder.
-eg. LabVIEW_2017/Sending_errors_to_a_Caller
+The Workers additional example projects are commited to a branch based on the version of the framework that the projects were developed with.
+Currently, all additional example projects are commited to branch : Workers 5.0
