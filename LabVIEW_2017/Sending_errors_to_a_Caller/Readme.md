@@ -1,3 +1,3 @@
 # Example Project Explanation
 
-Read the associated article here: https://community.workersforlabview.io/articles/post/TjEBF5GBLfJEqgl
+Read the associated article here: https://community.workersforlabview.io/articles/post/AsyKSrGXxALHIvc
