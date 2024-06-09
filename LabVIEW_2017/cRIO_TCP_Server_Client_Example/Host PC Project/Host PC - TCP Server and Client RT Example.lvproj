@@ -16,6 +16,7 @@
 			<Item Name="Head Worker.lvclass" Type="LVClass" URL="../Workers/Head Worker/Head Worker.lvclass"/>
 		</Item>
 		<Item Name="Launcher - Head Worker.vi" Type="VI" URL="../Launchers/Launcher - Head Worker.vi"/>
+		<Item Name="Readme.md" Type="Document" URL="../../Readme.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
