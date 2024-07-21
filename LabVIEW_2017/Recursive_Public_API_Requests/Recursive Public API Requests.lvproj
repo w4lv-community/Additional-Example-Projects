@@ -18,6 +18,7 @@
 		<Item Name="subWorker Level 1.lvclass" Type="LVClass" URL="../Workers/subWorker Level 1/subWorker Level 1.lvclass"/>
 		<Item Name="subWorker Level 2.lvclass" Type="LVClass" URL="../Workers/subWorker Level 2/subWorker Level 2.lvclass"/>
 		<Item Name="Launcher - Head Worker.vi" Type="VI" URL="../Launchers/Launcher - Head Worker.vi"/>
+		<Item Name="Readme.md" Type="Document" URL="../Readme.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
