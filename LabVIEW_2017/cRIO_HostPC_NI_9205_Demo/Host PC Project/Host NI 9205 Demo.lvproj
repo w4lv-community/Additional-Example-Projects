@@ -22,6 +22,7 @@
 		<Item Name="Main UI.lvclass" Type="LVClass" URL="../Workers/Main UI/Main UI.lvclass"/>
 		<Item Name="System Monitor UI.lvclass" Type="LVClass" URL="../Workers/System Monitor UI/System Monitor UI.lvclass"/>
 		<Item Name="Launcher - Host NI 9205 Demo.vi" Type="VI" URL="../Launchers/Launcher - Host NI 9205 Demo.vi"/>
+		<Item Name="Readme.md" Type="Document" URL="../../Readme.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>

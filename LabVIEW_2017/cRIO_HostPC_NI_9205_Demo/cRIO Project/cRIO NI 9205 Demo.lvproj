@@ -24,6 +24,7 @@
 			<Item Name="TCP Data KEYS.ctl" Type="VI" URL="../../Shared/TCP Data KEYS.ctl"/>
 			<Item Name="System Health Data.ctl" Type="VI" URL="../../Shared/System Health Data.ctl"/>
 		</Item>
+		<Item Name="Readme.md" Type="Document" URL="../../Readme.md"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
