@@ -4,4 +4,6 @@ Instructions:
 
 2. On the Launcher VI of the cRIO application, make sure you include the IP address of the Host PC.
 
-3.Run the cRIO Launcher VI and the two applications should connect. You will see the data from the cRIO streamed to the Host PC application.
+3. Run the cRIO Launcher VI and the two applications should connect. You will see the data from the cRIO streamed to the Host PC application.
+
+4. Safely shutdown the cRIO application remotely through the Workers Debug Server's Application Manager
