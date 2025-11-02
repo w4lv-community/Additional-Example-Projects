@@ -1,4 +1,4 @@
-### Distributed System Communication Pattern
+### cRIO <-> Host PC TCP Communication Example
 
 This example project demonstrates how to stream data between a Windows host PC and an NI real-time embedded target (CompactRIO) using the TCP Server and Client Workers, enabling distributed Workers applications across network-connected platforms.
 
