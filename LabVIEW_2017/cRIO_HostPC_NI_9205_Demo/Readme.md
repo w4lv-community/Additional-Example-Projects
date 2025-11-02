@@ -9,7 +9,7 @@ This complete distributed application was demonstrated at GLA Summit 2025, showc
 - Integrating FPGA data with Workers for high-speed data acquisition
 - Using TCP Server and Client Workers for data streaming between host-to-RT
 
-**Complete working example demonstrating Workers full capabilities on real-time embedded systems.**
+**Complete working example demonstrating Workers architecture on real-time embedded systems.**
 
 Learn more here: https://community.workersforlabview.io/articles/post/workers-for-labview-on-ni-real-time-targets-xXewjoaf40HUsPs
 
