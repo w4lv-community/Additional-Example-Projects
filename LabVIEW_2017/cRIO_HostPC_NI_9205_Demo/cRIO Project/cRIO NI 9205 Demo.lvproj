@@ -23,6 +23,8 @@
 		<Item Name="Shared" Type="Folder">
 			<Item Name="TCP Data KEYS.ctl" Type="VI" URL="../../Shared/TCP Data KEYS.ctl"/>
 			<Item Name="System Health Data.ctl" Type="VI" URL="../../Shared/System Health Data.ctl"/>
+			<Item Name="TCP Data Format.ctl" Type="VI" URL="../../Shared/TCP Data Format.ctl"/>
+			<Item Name="Raw FPGA Data.ctl" Type="VI" URL="../../Shared/Raw FPGA Data.ctl"/>
 		</Item>
 		<Item Name="Readme.md" Type="Document" URL="../../Readme.md"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
