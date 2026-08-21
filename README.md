@@ -1,6 +1,6 @@
 # Additional-Example-Projects
 
-The additional example projects for Workers 5.0 are contained within their LabVIEW version folders.
+The additional example projects for Workers 5.1 are contained within their LabVIEW version folders.
 
 e.g. For projects created in LabVIEW 2017, the example projects are contained in the folder: LabVIEW_2017/...
 
