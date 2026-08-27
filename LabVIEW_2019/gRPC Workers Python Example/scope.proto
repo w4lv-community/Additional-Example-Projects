@@ -1,0 +1,81 @@
+syntax = "proto3";
+
+// Workers Scope - the gRPC scope example, built from the Workers gRPC
+// template: only the payloads inside the numbered slots (and this comment
+// block) differ from the blank template.
+//
+// FROZEN - never rename (the LabVIEW gRPC generator derives VI, typedef and
+// class names from these; the package also prefixes every generated VI name):
+//   - package w4lvgrpc (keep it a single short token)
+//   - service Session, rpc Connect
+//   - ToServer / ToClient and their oneof cases msg_1..msg_9
+//   - the slot message names Msg_ToServer_1..9 / Msg_ToClient_1..9
+//
+// CHANGEABLE - the payload: everything inside the numbered messages (fields,
+// supporting types such as State) and the comments.
+
+package w4lvgrpc;
+
+// The client opens this bidirectional stream, sends ToServer and receives ToClient.
+service Session {
+  rpc Connect (stream ToServer) returns (stream ToClient);
+}
+
+// Scope state - a payload-supporting type. STOPPED is the proto3 zero value,
+// so always set state explicitly (an unset state reads as stopped).
+enum State {
+  STOPPED = 0;
+  RUNNING = 1;
+  ERROR   = 2;
+}
+
+// ToServer payload slots (client -> server). Define each slot's fields;
+// comments never affect generated names or the wire format.
+message Msg_ToServer_1 { string physical_channel = 1; double sample_rate_hz = 2; int32 samples_per_read = 3; }  // update-config
+message Msg_ToServer_2 { bool run = 1; }       // set-run
+message Msg_ToServer_3 { string placeholder = 1; }
+message Msg_ToServer_4 { string placeholder = 1; }
+message Msg_ToServer_5 { string placeholder = 1; }
+message Msg_ToServer_6 { string placeholder = 1; }
+message Msg_ToServer_7 { string placeholder = 1; }
+message Msg_ToServer_8 { string placeholder = 1; }
+message Msg_ToServer_9 { string placeholder = 1; }
+
+// ToClient payload slots (server -> client).
+message Msg_ToClient_1 { string device = 1; string product_type = 2; }  // device-info
+message Msg_ToClient_2 { repeated double y = 1; double dt = 2; double t0 = 3; string label = 4; int32 acquisitions = 5; }  // waveform
+message Msg_ToClient_3 { State state = 1; }    // status
+message Msg_ToClient_4 { string placeholder = 1; }
+message Msg_ToClient_5 { string placeholder = 1; }
+message Msg_ToClient_6 { string placeholder = 1; }
+message Msg_ToClient_7 { string placeholder = 1; }
+message Msg_ToClient_8 { string placeholder = 1; }
+message Msg_ToClient_9 { string placeholder = 1; }
+
+message ToServer {
+  oneof payload {
+    Msg_ToServer_1 msg_1 = 1;
+    Msg_ToServer_2 msg_2 = 2;
+    Msg_ToServer_3 msg_3 = 3;
+    Msg_ToServer_4 msg_4 = 4;
+    Msg_ToServer_5 msg_5 = 5;
+    Msg_ToServer_6 msg_6 = 6;
+    Msg_ToServer_7 msg_7 = 7;
+    Msg_ToServer_8 msg_8 = 8;
+    Msg_ToServer_9 msg_9 = 9;
+  }
+}
+
+message ToClient {
+  oneof payload {
+    Msg_ToClient_1 msg_1 = 1;
+    Msg_ToClient_2 msg_2 = 2;
+    Msg_ToClient_3 msg_3 = 3;
+    Msg_ToClient_4 msg_4 = 4;
+    Msg_ToClient_5 msg_5 = 5;
+    Msg_ToClient_6 msg_6 = 6;
+    Msg_ToClient_7 msg_7 = 7;
+    Msg_ToClient_8 msg_8 = 8;
+    Msg_ToClient_9 msg_9 = 9;
+  }
+}
